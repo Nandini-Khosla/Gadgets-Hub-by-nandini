@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>sign up</title>
+</head>
+<style>
+  input[type=text]:focus,
+  input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+form{
+  color:black;
+  background:rgb(255, 255, 255);
+  width:600px;
+  height:445px;
+  text-align:center;
+  margin-left:580px;
+  margin-top:150px;
+  margin-right:20px;
+}
+
+body{
+
+  
+  background: radial-gradient(#e2eca7, #eaec58)
+}
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 30%;
+  }
+
+  button:hover {
+   background:red;
+  }
+
+  .container{
+    text-align: center;
+  }
+input{
+border:3px solid grey;
+border-radius:23px;
+padding:4px;
+text-align:center;
+
+
+
+
+}
+
+   
+  
+
+  h3{
+    padding-top: 25px;
+  }
+
+</style>
+
+<body>
+  <form >
+    <div class="container">
+      <h3>SIGN UP</h3>
+
+      <label for="myfirst">First Name</label><br>
+      <input type="text" name="firstnam" id="myfirst" placeholder="First Name"><br><br>
+      <label for="mylast">Last Name</label><br>
+      <input type="text" name="lastnam" placeholder="Last Name"><br><br>
+      <label>Contact Number</label><br>
+      <input type="number" name="cntct" placeholder="9856783217"><br><br>
+      <label>Password</label><br>
+      <input type="password" name="password" placeholder="********"><br><br>
+      <label>SELECT YOUR PREFERENCE</label><br>
+      <input type="checkbox" name="preference" value="Refrigerator">Refrigerator
+      <input type="checkbox" name="preference" value="AC">AC
+      <input type="checkbox" name="preference" value="Cooler">Cooler
+      <input type="checkbox" name="preference" value="Leds">Leds
+      <input type="checkbox" name="preference" value="Washing Machine">Washing Machine
+      <input type="checkbox" name="preference" value="Fans">Fans<br>
+
+
+      //JAVASCRIPT 
+      <button type="submit" onclick="alert1()">REGISTER</button>
+      <script>
+        function alert1(){
+        window.alert("LOGIN SUCCESSFULL");
+    window.open('http://127.0.0.1:5500/html/home.html');}
+    </script>
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      </div>
+  </form>
+</body>
+
+</html>

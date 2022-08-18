@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FB</title>
+</head>
+<style>
+  input[type=text]:focus,
+  input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    align-content: center;
+  }
+
+  
+form{
+  color:black;
+  background:rgb(255, 255, 255);
+  width:600px;
+  height:945px;
+  text-align:center;
+  margin-left:580px;
+  margin-top:100px;
+  margin-bottom: 100px;
+  margin-right:20px;
+}
+
+body{
+
+  /*background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;*/
+  background: radial-gradient(#e2eca7, #eaec58)
+}
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 30%;
+  }
+
+  button:hover {
+   background:red;
+  }
+
+  .container{
+    text-align: center;
+  }
+input{
+border:3px solid grey;
+border-radius:23px;
+padding:4px;
+text-align:center;
+
+
+
+
+}
+
+   
+  
+
+  h3{
+    padding-top: 20px;
+  }
+
+</style>
+
+<body>
+  <form >
+    <div class="container">
+      <h3>FEEDBACK</h3>
+
+      
+        
+        YOUR NAME<br><br>
+        <input type="text" name="istname" placeholder="firstname">
+        <br><br>
+
+        
+
+        PHONE NUMBER<br><br>
+        <input type="number" name="istname" placeholder="91********">
+        <br><br>
+
+        EMAIL ID<br><br>
+        <input type="email" name="istname" placeholder="abc@gmail.com">
+        <br><br>
+
+        HOW WOULD YOU RATE YOUR OVERALL EXPERIENCE WITH OUR SERVICE?<br><br>
+        <input type="checkbox" name="very good" id="abc">very good<br>
+        <input type="checkbox" name="good" id="def">good<br>
+        <input type="checkbox" name="fair" id="ghi">fair<br>
+        <input type="checkbox" name="poor" id="jkl">poor<br>
+        <br>
+
+        DATE OF PURCHASE<br><br>
+        <input type="date" name="pdte">
+        <br><br>
+
+        WOULD YOU RECOMMEND OUR SERVICE/PRODUCT?<br><br>
+        <input type="radio" name="yup" id="mno">yes<br>
+        <input type="radio" name="nup" id="klm">no<br>
+        <br><br>
+
+        WHAT SHOULD WE CHANGE IN ORDER TO LIVE UP TO YOUR EXPECTATIONS?<br><br>
+        <textarea type="text" rows="7" cols="40"></textarea><br>
+
+
+
+    
+
+      <button type="submit" onclick="alert('registered successfully')">SUBMIT</button>
+
+      </div>
+  </form>
+</body>
+
+</html>

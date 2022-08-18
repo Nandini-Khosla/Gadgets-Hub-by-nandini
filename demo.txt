@@ -1,0 +1,133 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Demo page</title>
+        <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar {
+            background-color: rgb(31, 31, 52);
+            color: white;
+            width: 100%;
+            position: fixed;
+            top: 0px;
+        }
+
+        #navbar div {
+            display: inline-block;
+        }
+
+        #logo {
+            font-family: cursive;
+            font-size: 30px;
+            margin: 8px 5%;
+        }
+
+        #select_nav {
+            background-color: rgb(109, 145, 177);
+            
+        }
+
+        #lo_sig {
+            color: white;
+            background-color: rgb(54, 96, 133);
+            height: 37px;
+            width: 100px;
+            border: 2px solid antiquewhite;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #lo_sig:hover{
+            box-shadow: 0px 0px 15px 0px white;
+        }
+        #nav_menu #loginbtn:hover {
+            background-color: rgb(31, 31, 52);
+        }
+
+        #demo_page{
+            margin-top: 84px;
+            margin-bottom: 34px;
+            padding-bottom: 20px;
+            border-left: 10px solid black;
+            border-right: 10px solid black;
+            /* background-image: repeating-linear-gradient(white,rgb(221, 221, 255) 10%,white ); */
+            /*background-color: rgb(221, 221, 255);*/
+            background: radial-gradient(#e2eca7, #eaec58);
+        }
+
+        #demo_page h1{
+            text-align: center;
+            font-family: cursive;
+        }
+        #demo_page h2{
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .videos{
+            width: 65%;
+            margin: auto;
+        }
+        #main{
+            margin-bottom: 60px;
+        }
+        .secondary{
+            width: 40%;
+            display: inline-block;
+            margin-left: 6%;
+        }
+
+        
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="navbar">
+            <div id="logo">THE GADGETS HUB🛒</div>
+
+        </div>
+        
+        <div id="demo_page">
+            <h1 id="demo_heading">Check out some of our's demo sessions to resolve your issue</h1>
+            <div class="videos" id="main">
+                <h2>Laptop</h2>
+                <iframe width="100%" height="530" src="https://www.youtube.com/embed/oEDFVNXIvzM" title="HP Windows 11 Laptop Unboxing | HP Laptop 15s du3564TU Unboxing & First Look | 11th Gen | LT HUB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="videos secondary">
+                <h2>Fully Automatic Washing Machine</h2>
+                <iframe width="100%" height="440" src="https://www.youtube.com/embed/ol7aq8WXKi4" title="LG front load washing machine demo in hindi, Washing machine tub Cleaning|" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="videos secondary">
+                <h2>Mixer Grinder</h2>
+                <iframe width="100%" height="440" src="https://www.youtube.com/embed/ugjV68uNqJ8" title="Havells Supermix Mixer Grinder Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="videos secondary">
+                <h2>Microwave Oven</h2>
+                <iframe width="100%" height="440" src="https://www.youtube.com/embed/cp45r3Aj_jw" title="Demo of Samsung 21 L Convection Microwave Oven [Model no CE76JD-B/XTL or CE73JD-B/XTL]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="videos secondary">
+                <h2>Air Fryer</h2>
+                <iframe width="100%" height="440" src="https://www.youtube.com/embed/niz-2SeKZWg" title="Bajaj Majesty AFX7 Air Fryer Demo video | Airfryer Unboxing and Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="videos secondary">
+                <h2>Home Theater</h2>
+                <iframe width="100%" height="440" src="https://www.youtube.com/embed/MdxI-YAwq2I" title="Sony HT-S20R 5.1 Audio Home Theatre System Installation | Unboxing | How To Install 5.1 Home Theatre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="videos secondary">
+                <h2>Smart TV</h2>
+                <iframe width="100%" height="440" src="https://www.youtube.com/embed/lTcAdHlLGFs" title="SMART TV DEMO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+
+        </div>
+
+        
+        </div>
+    </body>
+</html>
